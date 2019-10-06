@@ -1,0 +1,2 @@
+<h2>Crystals</h2>
+<p><img src="images/Crystals.gif" alt="Crystals" class="storeimg" />AURA SHOP™ houses a very large collection of stunning, high quality crystals of all sizes for use as personal hand held tools or for placement in your environment to enhance your space. We specialize in heart shapes, polished and natural; geodes, big and small; polished bags of stones, massage tools; wands, natural and hand crafted with silver & gold; and uncommon, rare pieces for collectors and crystal energy practitioners. Change your energy, change your life!</p>

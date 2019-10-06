@@ -1,0 +1,8 @@
+<h2>Sidney Angelique</h2>
+<img src="images/sidney.jpg" alt="Sidney" class="left"><p align="left">Ordained in 1991 as a Minister in California, she is a licensed counselor and  has been using energy to heal, clear and balance for over 20 years.  Sidney-Angelique has  been a practioner of several forms of Martial Arts and created the Mainstream  Yoga Method, teaching hatha yoga and meditation for 15 years.  As a member of the AURA SHOP™ core team,  Sidney-Angelique brings new modalities in self-empowerment, enriching the menu  of available services. Incredibly accurate, her light hearted and humorous  outlook on life makes her readings and teachings easy to integrate into your  daily life.  She is also a  certified Crystal Energy Therapist, Level I. Sidney-Angelique is a Clairvoyant, Clairaudient, and  Psychic Healer, who specializes in Chakra Tune Up, Balance and Alignment. She gives you tools to use in everyday life to ground  and manifest your dreams and heal emotional or psychic trauma from the past or  current life events. Sidney-Angelique believes that we all have the ability  to heal our selves.  Her dedication in  teaching empowering techniques to manifest results in your daily life helps you  to create true transformation.</p>
+<p align="left">She is at the AURA SHOP™ for walk-ins and  appointments <br>
+  Monday's &amp; Wednesdays thru Saturday,  11am to 6pm.<br>
+  Her fees are: 15 min- $65.00, 1/2 hr  -$95.00, 1hr-$150.00<br>
+  Personal jewelry &amp; crystal charging  activations vary from $10.00 up.</p>
+<p align="left">Sidney-Angelique also does Remote Phone  Consultations and Healings (by appointment at $200.00 per hour) call (310)  584-9998.<br>
+</p>

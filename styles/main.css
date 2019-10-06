@@ -1,0 +1,290 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*THIS IS THE NORMALIZING CODE FOR ALL BROWSERS-------------------------------------------------*/
+
+/*Normalizes margin and padding*/
+body, div, dl, dt, dd, ul, ol, li, h1, h1, h3, h4, h5, h6, pre, form, fieldset, input, p, blockquote, th, td
+{ margin: 0; padding: 0;}
+
+/*Normalizes font-size for headers*/
+h1, h2, h3, h4, h5, h6
+{ font-size: 100%;}
+
+/*Removes list-style from lists*/
+ol,ul
+{ list-style: none;}
+
+/*Normalizes font-style and font-weight to normal*/
+address, caption, cite, code, dfn, em, strong, th, var
+{ font-style: normal; font-weight: normal;}
+
+/*Collapses all tables*/
+table
+{ border-collapse: collapse; border-spacing: 0;}
+
+/*Removes borders from fieldset and img*/
+fieldset, img
+{ border: 0;}
+
+/*Left-aligns text in caption and th*/
+caption, th
+{ text-align: left;}
+
+/*Removes quotations from q*/
+q:before, q:after
+{ content: '';}
+
+/*Aligns entire html page and starts layout.css-------------------------------------------------*/
+html
+{ text-align: center; background: #FFFFFF url(../images/bkgdv2.jpg) repeat-x top center; }
+
+/*ALPHA FIXES FOR PNGS IE 6*/
+* html img,
+* html img a:hover,
+* html .png,{
+    position:relative;
+    behavior: expression((this.runtimeStyle.behavior="none")&&(this.pngSet?this.pngSet=true:(this.nodeName == "IMG" && this.src.toLowerCase().indexOf('.png')>-1?(this.runtimeStyle.backgroundImage = "none",
+        this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.src + "', sizingMethod='image')",
+        this.src = "transparent.gif"):(this.origBg = this.origBg? this.origBg :this.currentStyle.backgroundImage.toString().replace('url("','').replace('")',''),
+        this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.origBg + "', sizingMethod='crop')",
+        this.runtimeStyle.backgroundImage = "none")),this.pngSet=true)
+    );
+}
+
+/*clearfix*/
+.clearfix {
+	content: ".";
+	display: block;
+	visibility: hidden;
+	height: 0;
+	clear: both;
+	}
+
+.clearfix { display: inline-block; }
+
+.bold { font-weight: bold; }
+
+.red { color: #FF0000; }
+
+.inline { display: inline; }
+
+.noShow { display: none; }
+
+/*Aligns body to center and sets width, aligns text left*/
+body {
+	width: 100%; 
+	text-align: left; 
+	position: relative; 
+	font: medium/1.4 Arial, Georgia, Helvetica, sans-serif;
+	/*color: #663399;*/
+	color: #333333;
+	}
+	
+/*PARAGRAPH*/
+p { margin: 0; padding-left: 20px; padding-right: 10px; padding-bottom: 10px; }
+	
+p:first-letter { font-size: 16px; }
+	
+/*DEFAULT LINKS*/
+a { text-decoration: none; color: #330066; }
+
+a:hover { color: #000000; text-decoration: underline; }
+	
+/*HEADERS*/
+#dropcapA { float: left; }
+
+h3 { font-size: 16px; color: #000; }
+
+h4 { font-size: 12px; color: #000; }
+
+h2, h3, h4, h5, h6 { padding-left: 20px; padding-right: 10px; color: #663399; }
+
+h2 { font-size: 18px; color: #663399; padding-left: 65px; background: transparent url(../images/headerpicv2.png) no-repeat 10px 0; padding-top: 3px; padding-bottom: 5px; }
+/*IMAGES*/
+img { border: }
+
+.mediumpic { height: 150px; width: 100px; }
+
+.right { float: right; margin: 5px; padding: 5px; }
+
+.left { float: left; margin: 5px; padding: 5px; padding-left: 20px; }
+
+#Load #lighttable { float: right; margin: 5px; border: 1px solid #000000; }
+	
+/*WRAPPER CONTAINER*/
+#wrapper {
+	width: 900px;
+	margin: 0 auto;
+	position: relative;
+	}
+	
+/*#content_wrapper*/
+#main_wrapper {
+	width: 900px;
+	float: left;
+	}
+	
+#content_wrapper {
+	width: 900px;
+	float: left;
+	position: relative;
+	margin-top: 0;
+	}
+	
+/*BRANDING HEADER*/
+#branding {
+	float: left;
+	width: 900px;
+	position: relative;
+	margin-bottom: 10px;
+	}
+	
+#branding img { border: 0; }
+#branding a img {
+ 	margin-left: 25px;
+	margin-right: 25px;
+	}
+
+#branding blockquote { display: none; visibility: hidden; }
+	
+/*CONTENT_MAIN DIV*/
+#Load {
+	margin-right: 10px;
+	text-align: left;
+	float: right;
+	width: 670px;
+	padding-bottom: 40px;
+	}
+	
+/*NAVBAR*/
+#navbar {
+	width: 190px;
+	float: left;
+	padding-bottom: 230px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+	background: #FFFFFF url(../images/footerv2new.jpg) no-repeat bottom left;
+	}
+
+/*DT INDIVIDUAL NAV BACKGROUNDS*/
+#navbar dt {
+	padding-left: 10px;
+	height: 50px;
+	font: 14px Verdana, Arial, Helvetica, sans-serif;
+	border: 1px double #333333;
+	}
+	
+#navbar dt#home {
+	background: #FFFFFF url(../images/buttons/homebtn.jpg) no-repeat top left;
+	}
+	
+#navbar dt#crystals {
+	background: #FFFFFF url(../images/buttons/crystalbtn.jpg) no-repeat top left;
+	}
+	
+#navbar dt#aura {
+	background: #FFFFFF url(../images/buttons/aurachakrabtn.jpg) no-repeat top left;
+	}
+	
+#navbar dt#store {
+	background: #FFFFFF url(../images/buttons/storebtn.jpg) no-repeat top left;
+	}
+	
+#navbar dt#healing {
+	background: #FFFFFF url(../images/buttons/healingbtn.jpg) no-repeat top left;
+	}
+	
+#navbar dt#table {
+	background: #FFFFFF url(../images/buttons/tablebtn.jpg) no-repeat top left;
+	}
+	
+#navbar dt#contactus {
+	background: #FFFFFF url(../images/buttons/contactbtn.jpg) no-repeat top left;
+	}
+
+/*-------------------------------------------------------------------------------------------------------*/	
+#navbar dt a { color: #330066; display: block; height: 50px; width: 180px; padding-top: 15px; }
+	
+#navbar dt a:hover { color: #333333; text-decoration: underline; }
+	
+#navbar li a { display: block; height: 20px; width: 165px; background: #FFFFFF url(../images/liBtn.jpg) no-repeat top center; padding-left: 25px; color: #330066; }
+	
+#navbar li a:hover {
+	color: #000000;
+	text-decoration: underline;
+	}
+	
+/*SITE INFO*/
+#site_info {
+    padding-top: 3px;
+    clear: both;
+    height: 30px;
+	text-align: center;
+	margin-bottom: 20px;
+	background: #FFFFFF url(../images/footerv2.jpg) no-repeat top center;
+	color: #000000;
+	}
+	
+#site_info p a { color: #000000; text-decoration: underline; }
+
+#site_info p a:hover { text-decoration: underline; color: #333333; }
+
+/*NO CAPS*/
+.noCaps { margin: 0; padding: 0; padding-left: 30px; padding-bottom: 10px; }
+
+/*NEWS EVENTS DIVS*/
+#news { width: 325px; float: left; padding: 5px; }
+
+#upcomingevents { width: 325px; float: left; padding: 5px; }
+
+.date { color: #333333; }
+
+#author { padding: 0; margin: 0; padding-left: 30px; }
+
+/*tables and tr,td,head*/
+td, tr { padding: 5px; }
+
+/*FORM*/
+form {
+	font-weight: bold;
+	}
+
+input, textarea, button, list, menu, select { border-right: 1px solid #9966CC; border-bottom: 1px solid #9966CC; color: #9966CC; }
+
+/*CRYSTAL CSS*/
+
+#selectedCrystals img { padding: 2px; border: 1px solid #333; margin: 2px; }
+
+#selectedCrystals li { border: 1px solid #9966CC; padding: 10px; }
+
+ul#crystallist { margin: 0; padding: 0; }
+
+ul#crystallist li { display: inline; }
+
+ul#crystallist li a { display: inline; border: 1px solid #cccccc; height: 30px; padding-right: 25px; background: transparent; }
+
+#description { float: right; width: 350px; }
+
+.onehundred { width: 100px; }
+
+/*STORE CSS*/
+img.storeimg { float: right; padding: 2px; border: 1px solid #333; margin: 5px; }
+
+.toplink { padding-left: 20px; }
+
+/*AURA PLAYER*/
+#auraplayer { float: left; }
+
+li.expandEvent {
+	padding: 10px;
+	border: 1px dashed #6666CC;
+	float: left;
+	width: 100%;
+	}
+
+/* =fieldset */
+fieldset { margin: 20px 0; padding: 10px; border: 1px solid #CC99FF; width: 500px; }
+label { float: left; width: 100px; text-align: right; margin-right: 10px; }
+
+#Load img { padding: 2px; margin: 5px; border: 1px solid #333333; }

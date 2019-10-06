@@ -1,0 +1,3 @@
+<h2>Readings</h2>
+<p>AURA SHOP&trade; offers a variety of&nbsp;choices&nbsp;including aura/chakra   readings &amp; reports, intuitive readings and life coaching, as well   as&nbsp;divine angel readings. We carefully select only the most gifted and experienced readers to ensure a insightful, transformational and empowering experience.</p>
+<p>For your guidance and understanding, see our staff of readers and practitioners featured in this section. To book a phone or in-person consultation, please contact us by phone at 310.584.9998 or through the Contact Us link on our site.</p>

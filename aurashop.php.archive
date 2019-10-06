@@ -1,0 +1,70 @@
+<?php include_once("includes/sessions.php"); ?>
+<?php require_once("includes/config.php"); ?>
+<?php include_once("includes/dbconnection.php"); ?>
+<?php
+	//PRINTS TITLE OF PAGE FROM VARIABLE 
+	$title = "Aurashop Crystals, Healing, Aura, Chakra, and the Metaphysical"; 
+	$nav = "home";
+?>
+<?php require_once("includes/top.php"); ?>
+<div id="content_wrapper">
+<?php require_once("includes/navbar.php"); ?>
+
+    	<div id="Load">
+        
+        	<div id="mission">
+            <h2>Welcome to the Aura Shop!</h2>
+            	<p><img src="images/DropCap.png" id="dropcapA" alt="A" />URA SHOP is your resource center for self-awareness and self-empowerment, providing the highest quality products and services. The Aura Shop vision is to teach clients how to balance their physical, mental, emotional and spiritual energy, while providing an interactive holistic environment with tools and services for personal growth.</p>
+<p>The Aura Shop promotes peace and harmony of body, mind and spirit, serving and guiding our clients to know and empower themselves.</p>
+ <p>New store hours: M-Sat 11:00am - 6pm and Sunday 11:00am - 5 pm</p>
+            </div>
+        
+			<div id="news">
+            <h2>News + Updates</h2>
+<?php
+	$sql = 'SELECT * FROM news ORDER BY date DESC LIMIT 3';
+	$result = mysql_query($sql);
+?>
+            	<ul id="newsinfo">
+                	<?php while ($row = mysql_fetch_assoc($result)) { ?>
+                    	<li>
+                        	<h3><?php echo stripslashes($row['title']); ?></h3>
+                            <p id="author">Author: <?php echo stripslashes($row['author']); ?></p>
+                            <p class="noCaps date">Date: <?php echo stripslashes($row['date']); ?></p>
+                            <p><?php echo stripslashes($row['content']); ?></p>
+                        </li><br/ >
+                    <?php 
+					}
+					?>
+                    <a href="newsupdates.php" class="chakra" style="padding-left: 20px">More News and Updates...</a>
+                </ul>
+            
+            </div><!--ENDS NEWS DIV-->
+            
+<?php
+	$sql = 'SELECT * FROM events ORDER BY date DESC LIMIT 3';
+	$result = mysql_query($sql);
+?>
+            
+            <div id="upcomingevents">
+           	<h2>Upcoming Events</h2>
+            <ul id="newsinfo">
+                	<?php while ($row = mysql_fetch_assoc($result)) { ?>
+                    	<li>
+                        	<h3><?php echo stripslashes($row['title']); ?></h3>
+                            <p class="noCaps date">Event Date: <?php echo stripslashes($row['date']); ?></p>
+                            <p>Details: <?php echo stripslashes($row['content']); ?></p>
+                            <p><?php echo stripslashes($row['misc']); ?></p>
+           				</li>
+                        <br/ >
+                    <?php 
+					}
+					?>
+                </ul>
+            <a href="events.php" class="chakra toplink" style="padding-left: 20px">More Events...</a>
+            </div>
+               
+      </div><!--ENDS CONTENT_MAIN DIV-->    
+      </div><!--ENDS CONTENT_WRAPPER DIV-->
+    
+<?php require_once("includes/site_info.php"); ?>

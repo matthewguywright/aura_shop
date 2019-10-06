@@ -1,0 +1,43 @@
+<div id="newarrivals">
+  <form action="scripts/arrivalscript.php" method="post" enctype="multipart/form-data" name="newarrivals" id="newarrivals">
+    <table width="650" border="0" cellspacing="0" cellpadding="0" summary="New Arrivals">
+
+      <tr>
+        <td width="40%" align="left" valign="top">Item:</td>
+        <td width="60%" align="left" valign="top"><label for="item"></label>
+          <input name="item" type="text" id="item" tabindex="1" value="Enter Item Name Here" size="50" maxlength="100"></td>
+      </tr>
+      <tr>
+        <td width="40%" align="left" valign="top">Description:</td>
+        <td width="60%" align="left" valign="top"><label for="description"></label>
+          <textarea name="description" cols="50" rows="5" id="description" tabindex="2">Enter Item Info For Customers Here
+</textarea></td>
+      </tr>
+      <tr>
+        <td width="40%" align="left" valign="top"><label for="label">Category:</label></td>
+        <td width="60%" align="left" valign="top"><label for="category"></label>
+          <select name="category" id="category">
+            <option value="crystal">Crystal</option>
+            <option value="statue">Statue</option>
+            <option value="specialty" selected>Specialty</option>
+            <option value="healing">Healing</option>
+            <option value="products">Products</option>
+        </select>        </td>
+      </tr>
+      <tr>
+        <td width="40%" align="left" valign="top">Picture:</td>
+        <td width="60%" align="left" valign="top"><label for="picture"></label>
+        <input type="hidden" name="MAX_FILE_SIZE" value="104857600" />
+<input type="file" name="picture" /></td>
+      </tr>
+      <tr>
+        <td width="40%" align="left" valign="top">&nbsp;</td>
+        <td width="60%" align="left" valign="top"><input type="submit" name="submitarrival" id="submitarrival" value="Add New Arrival"></td>
+      </tr>
+      <tr>
+        <td width="40%" align="left" valign="top">&nbsp;</td>
+        <td width="60%" align="left" valign="top">&nbsp;</td>
+      </tr>
+    </table>
+  </form>
+</div>
